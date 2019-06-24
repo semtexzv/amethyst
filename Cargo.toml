@@ -15,6 +15,9 @@ repository = "https://github.com/amethyst/amethyst"
 readme = "README.md"
 license = "MIT/Apache-2.0"
 
+[lib]
+crate-type = ["dylib"]
+
 [badges]
 travis-ci = { repository = "amethyst/amethyst", branch = "master" }
 
